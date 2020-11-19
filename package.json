@@ -4,11 +4,19 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "deploy": "sh deploy.sh"
   },
   "dependencies": {
+    "axios": "^0.21.0",
+    "bootstrap": "^4.5.3",
+    "bootstrap-vue": "^2.19.0",
     "core-js": "^3.6.5",
-    "vue": "^3.0.0",
+    "v-pagination-3": "^0.1.2",
+    "vue": "^3.0.2",
+    "vue-axios": "^3.2.0",
+    "vue-paginate": "^3.6.0",
     "vue-router": "^4.0.0-0"
   },
   "devDependencies": {
